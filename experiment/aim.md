@@ -1,1 +1,2 @@
-### Aim of the experiment
+In this experiment, we look at the weighted version of Breadth First Search (BFS). In BFS, we have measured ds(v) in terms of number of edges in the path from the starting vertex s to v. This is equivalent to assuming that each edge in the graph has equal (unit) weight. Here we consider a more general setting, where we are given a weighted graph G = (V, E, W) with a weight function W : E −> R. A typical example is Road networks, where junctions can be treated as vertices and roads as edges with distance as its corresponding weights. A typical problem is to find the shortest distance between two junctions u and v, where the distance is the sum of weights of edges along a u --- v path.
+
